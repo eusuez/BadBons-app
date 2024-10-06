@@ -1,0 +1,13 @@
+cor: 
+    primaria: #1c1c1e
+
+
+
+<PaperProvider theme={PaperDarkTheme}>
+    <NavigationContainer
+      theme={currentTheme === "dark" ? DarkTheme : DefaultTheme}
+    >
+      <StatusBar style ="auto"/>
+      <StackNavigate/>
+    </NavigationContainer>
+    </PaperProvider>
